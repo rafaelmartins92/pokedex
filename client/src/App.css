@@ -1,0 +1,66 @@
+:root {
+  --primary-color: #EF5C2B;
+  --secondary-color: #FFE75F;
+
+  --white: #fff;
+
+  --gray-50: #f7f8fa;
+  --gray-100: #e6e8eb;
+  --gray-200: #afb2b1;
+  --gray-500: #808080;
+  --gray-800: #494d4b;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+*, button, input {
+  border: 0;
+  outline: 0;
+}
+
+body {
+  background: linear-gradient(180deg, #FD6C3E 0%, #E15021 100%);
+}
+
+body, input, textarea, button {
+  font: 500 1rem Inter, sans-serif;
+  color: var(--gray-100);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  font-family: Lexend, sans-serif;
+  color: var(--gray-50);
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+button {
+  cursor: pointer;
+}
