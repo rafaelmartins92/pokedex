@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react";
 
+import Header from "../../components/Header";
 import Table from "../../components/Table";
 
 import { GetPokemons } from "../../services/api";
+
+import { Container } from "./styles";
 
 function PokemonsList() {
   const [pokemonsList, setPokemonsList] = useState([{}]);
@@ -21,8 +24,10 @@ function PokemonsList() {
 
   return (
     <>
-      <h2>Pokemons</h2>
-      <Table pokemonsList={pokemonsList} loading={loading} />
+      <Container>
+        <Header headerTitle="Todos os Pokemons" />
+        <Table pokemonsList={pokemonsList} loading={loading} />
+      </Container>
     </>
   );
 }
