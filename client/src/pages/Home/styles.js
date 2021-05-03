@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.section`
   width: 100vw;
   height: 100vh;
   background-image: url("/background.svg");
@@ -8,25 +8,16 @@ export const Container = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
 
-  h1 {
-    font-size: 9rem;
-  }
-
-  p {
-    font-size: 2rem;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const Image = styled.div`
-  height: 100vh;
-  display: flex;
-  justify-content: flex-end;
-  float: right;
-
   @media only screen and (max-width: 1200px) {
     justify-content: center;
     align-items: normal;
-    /* padding-top: 5rem; */
   }
 
   @media only screen and (max-width: 800px) {
@@ -34,7 +25,45 @@ export const Image = styled.div`
     padding-top: 5rem;
 
     .responsive {
-      width: 50%;
+      width: 190%;
+    }
+  }
+`;
+
+export const Content = styled.div`
+  max-width: 576px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  h1 {
+    font-size: 9rem;
+  }
+
+  p {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    line-height: 140%;
+
+    margin: 1rem;
+  }
+
+  button {
+    margin-left: 1rem;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    position: relative;
+
+    transition: filter 0.2s;
+
+    :hover {
+      filter: brightness(0.95);
     }
   }
 `;
