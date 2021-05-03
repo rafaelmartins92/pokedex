@@ -15,27 +15,31 @@ export const ContainerBaixo = styled.div`
 
   .pageNumbers li {
     padding: 10px;
-    border: 1px solid white;
+    border: 1px solid var(--gray-100);
     cursor: pointer;
-  }
+    display: flex;
+    align-items: center;
 
-  .pageNumbers li.active {
-    background-color: white;
-    color: black;
+    :hover {
+      background-color: var(--gray-100);
+      color: var(--gray-800);
+    }
   }
 
   .pageNumbers li button {
     background-color: transparent;
     border: none;
-    color: white;
+    color: var(--white);
     font-size: 1.5rem;
     cursor: pointer;
+
+    :hover {
+      color: var(--gray-800);
+    }
   }
-  .pageNumbers li button:hover {
-    background-color: white;
-    color: black;
-  }
-  .pageNumbers li button:focus {
-    outline: none;
+
+  .pageNumbers li.active {
+    background-color: var(--gray-100);
+    color: var(--gray-800);
   }
 `;

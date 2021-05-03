@@ -20,6 +20,7 @@ export const Container = styled.header`
     margin-left: 2rem;
     padding: 0.25rem 0 0.25rem 2rem;
     border-left: 1px solid var(--gray-100);
+    color: var(--white);
   }
 
   span {

@@ -77,12 +77,12 @@ function PokemonsList() {
 
   let pageIncrementBtn = null;
   if (pages.length > maxPageNumberLimit) {
-    pageIncrementBtn = <li onClick={handleNextbtn}> &hellip; </li>;
+    pageIncrementBtn = <li onClick={handleNextbtn}> ... </li>;
   }
 
   let pageDecrementBtn = null;
   if (minPageNumberLimit >= 1) {
-    pageDecrementBtn = <li onClick={handlePrevbtn}> &hellip; </li>;
+    pageDecrementBtn = <li onClick={handlePrevbtn}> ... </li>;
   }
 
   return (
@@ -97,13 +97,12 @@ function PokemonsList() {
                 onClick={handlePrevbtn}
                 disabled={currentPage === pages[0] ? true : false}
               >
-                Prev
+                Voltar
               </button>
             </li>
             {pageDecrementBtn}
             {renderPageNumbers}
             {pageIncrementBtn}
-
             <li>
               <button
                 onClick={handleNextbtn}
@@ -111,7 +110,7 @@ function PokemonsList() {
                   currentPage === pages[pages.length - 1] ? true : false
                 }
               >
-                Next
+                Avançar
               </button>
             </li>
           </ul>

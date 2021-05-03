@@ -15,7 +15,7 @@ export const Container = styled.section`
     }
 
     th {
-      color: var(--gray-50);
+      color: var(--white);
       text-transform: uppercase;
       font-size: 0.75rem;
       font-weight: 500;
@@ -24,6 +24,7 @@ export const Container = styled.section`
 
     td {
       font-size: 0.875rem;
+      color: var(--gray-100);
     }
   }
 `;
