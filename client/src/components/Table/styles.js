@@ -1,9 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  padding: 0 4rem;
-
-  padding-bottom: 2rem;
+  padding: 0 4rem 2rem;
 
   table {
     width: 100%;
