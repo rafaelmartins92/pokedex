@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Logo" src="client/public/logo.svg" />
+    <img alt="Logo" src="client/public/logo-gray.svg" />
     <br>
 </h1>
 
@@ -71,7 +71,7 @@ $ npm install
 # Run the application
 $ npm start
 
-# You can now view client in the browser.
+# You can now view client in the browser
 # On local: http://localhost:3000
 ```
 
