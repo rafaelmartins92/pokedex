@@ -37,8 +37,8 @@
 </p>
 
 <p align="center">
-  <img alt="Scene" src="client/public/portfolio-scene---pokky-home@2x.png">
-  <img alt="Scene" src="client/public/portfolio-scene---pokky-list@2x.png">
+  <img alt="Home" src="client/public/github-scene---pokky-home@2x.png">
+  <img alt="List" src="client/public/github-scene---pokky-list@2x.png">
 </p>
 
 ## :rocket: Technologies
