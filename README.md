@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Logo" src="client/public/logo-gray.svg" />
+    <img alt="Logo" src="public/logo-gray.svg" />
     <br>
 </h1>
 
@@ -37,8 +37,8 @@
 </p>
 
 <p align="center">
-  <img alt="Home" src="client/public/github-scene---pokky-home@2x.png">
-  <img alt="List" src="client/public/github-scene---pokky-list@2x.png">
+  <img alt="Home" src="public/github-scene---pokky-home@2x.png">
+  <img alt="List" src="public/github-scene---pokky-list@2x.png">
 </p>
 
 ## :rocket: Technologies
