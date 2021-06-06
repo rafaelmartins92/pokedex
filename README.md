@@ -20,19 +20,24 @@
 <h4 align="center">
   <p>Pokky: The best Pokedex</p>
   
-  <p>This application was developed to resolve a test problem.</p>
+  <p>This is a frontend challenge to see how good are the developer skills.</p>
 
   <p>
-  The test consists in create a full application (back-end and front-end) to show the pokemons from api. The application needs to have a page to create new pokemons, a login page and a registration page. 
+  The test consists in create a full application (back-end and front-end) to list pokemons from the api. The application needs to have a page to create new pokemons, a login page and a registration page. 
 
   This application is being devoloped with Node.js and React JS.
+
+  For the Design I've decided to use Figma.
   </p>
 </h4>
 
 
 <p align="center">
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#eyes-check-it-out">Check it Out</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#art-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-use">How to Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#thumbsup-how-to-contribute">How to Contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
 
@@ -48,8 +53,20 @@ This project was developed with the following technologies:
 -  [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 -  [React JS](https://pt-br.reactjs.org/)
 -  [Styled-Components](https://styled-components.com/)
--  [Node.js](https://nodejs.org/en/)
+-  [Axios](https://github.com/axios/axios)
 -  [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
+
+## :eyes: Check it Out
+
+You can try it here:
+
+-  [Pokky](https://pokky.netlify.app/)
+
+## :art: Layout
+
+You can check the layout here:
+
+-  [Figma](https://www.figma.com/file/qxMszguFf48SdT4Fqik3bf/Pokky?node-id=0%3A1)
 
 ## :information_source: How to use
 
